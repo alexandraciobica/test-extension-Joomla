@@ -12,9 +12,9 @@ Implementation details:
 ---------
 I named the extension helloworld because I wanted to differentiate it from com_users, and because I started it from the helloworld tutorial.
 
-The **backend** can be accessed at /administrator/index.php/option=com_helloworld.
+The **backend** can be accessed at `/administrator/index.php/option=com_helloworld`.
 
 I have used a JHtml 'jgrid.state' to provide the option of changing whether the profile of the user is made public or not. I have extended the UsersModel and added a column `publicProfile` in the `#__users` table through an sql alter script at install of the component.
 
 
-The **frontend** can be accessed by adding a site menu item, it is named "Hello world!", or by accessing /index.php/option=com_helloworld?view=helloworld.
+The **frontend** can be accessed by adding a site menu item, it is named "Hello world!", or by accessing `/index.php/option=com_helloworld?view=helloworld`.

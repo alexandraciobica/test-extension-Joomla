@@ -1,0 +1,1 @@
+ALTER TABLE `#__users` ADD COLUMN `publicProfile` TINYINT DEFAULT '0' NOT NULL;

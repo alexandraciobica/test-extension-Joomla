@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<metadata>-->
+    <!--<layout title="Hello World">-->
+        <!--<message>Hello world comp description</message>-->
+    <!--</layout>-->
+    <!--<fields-->
+            <!--name="request"-->
+            <!--&gt;-->
+        <!--<fieldset name="request"-->
+                  <!--addfieldprefix="Joomla\Component\HelloWorld\Administrator\Field">-->
+            <!--<field-->
+                    <!--name="id"-->
+                    <!--type="helloworld"-->
+                    <!--label="COM_HELLOWORLD__FIELD_LABEL"-->
+                    <!--description="COM_HELLOWORLD_FIELD_DESC"-->
+                    <!--&gt;-->
+            <!--</field>-->
+        <!--</fieldset>-->
+    <!--</fields>-->
+<!--</metadata>-->
+
+<metadata>
+<layout title="Hello world">
+    <message>Go to the list of users with public profile</message>
+</layout>
+</metadata>
